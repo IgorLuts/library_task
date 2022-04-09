@@ -1,0 +1,523 @@
+--- !ruby/object:Library
+authors:
+- &1 !ruby/object:Author
+  name: Даниэль Дефо
+  biography: empty
+- &2 !ruby/object:Author
+  name: Джек Лондон
+  biography: empty
+- &3 !ruby/object:Author
+  name: Рафаэль Сабатини
+  biography: empty
+- &4 !ruby/object:Author
+  name: Николай Гоголь
+  biography: empty
+- &5 !ruby/object:Author
+  name: Юрий Никитин
+  biography: empty
+- &6 !ruby/object:Author
+  name: Иван Тургеньев
+  biography: empty
+- &7 !ruby/object:Author
+  name: Михаил Лермонтов
+  biography: empty
+- &8 !ruby/object:Author
+  name: Александр Пушкин
+  biography: empty
+- &9 !ruby/object:Author
+  name: Сергей Есенин
+  biography: empty
+- &10 !ruby/object:Author
+  name: Константин Станюкович
+  biography: empty
+- &11 !ruby/object:Author
+  name: Анна Франк
+  biography: empty
+- &12 !ruby/object:Author
+  name: Джоан Роулинг
+  biography: empty
+- &13 !ruby/object:Author
+  name: Шарлотта Бронте
+  biography: empty
+- &14 !ruby/object:Author
+  name: Джером Селинджер
+  biography: empty
+- &15 !ruby/object:Author
+  name: Марк Твен
+  biography: empty
+- &16 !ruby/object:Author
+  name: Эли Визель
+  biography: empty
+books:
+- &17 !ruby/object:Book
+  title: Робинзон Крузо
+  author_name: Даниэль Дефо
+  author: *1
+- &19 !ruby/object:Book
+  title: Белый клык
+  author_name: Джек Лондон
+  author: *2
+- &22 !ruby/object:Book
+  title: Мартин Иден
+  author_name: Джек Лондон
+  author: *2
+- &23 !ruby/object:Book
+  title: Смок Белью
+  author_name: Джек Лондон
+  author: *2
+- &24 !ruby/object:Book
+  title: Мексиканец
+  author_name: Джек Лондон
+  author: *2
+- &34 !ruby/object:Book
+  title: Зов предков
+  author_name: Джек Лондон
+  author: *2
+- &26 !ruby/object:Book
+  title: Одиссея капитана Блада
+  author_name: Рафаэль Сабатини
+  author: *3
+- &27 !ruby/object:Book
+  title: Мертвые души
+  author_name: Николай Гоголь
+  author: *4
+- &28 !ruby/object:Book
+  title: Таргитай
+  author_name: Юрий Никитин
+  author: *5
+- &29 !ruby/object:Book
+  title: Отцы и дети
+  author_name: Иван Тургеньев
+  author: *6
+- &21 !ruby/object:Book
+  title: Война и мир
+  author_name: Михаил Лермонтов
+  author: *7
+- &20 !ruby/object:Book
+  title: Руслан и Людмила
+  author_name: Александр Пушкин
+  author: *8
+- &30 !ruby/object:Book
+  title: Черный человек
+  author_name: Сергей Есенин
+  author: *9
+- &31 !ruby/object:Book
+  title: История одной жизни
+  author_name: Константин Станюкович
+  author: *10
+- &46 !ruby/object:Book
+  title: Дневник Анны Франк
+  author_name: Анна Франк
+  author: *11
+- &48 !ruby/object:Book
+  title: Гарри Поттер
+  author_name: Джоан Роулинг
+  author: *12
+- &25 !ruby/object:Book
+  title: Джейн Эйр
+  author_name: Шарлотта Бронте
+  author: *13
+- &41 !ruby/object:Book
+  title: Над пропастью во ржи
+  author_name: Джером Селинджер
+  author: *14
+- &37 !ruby/object:Book
+  title: Том Сойер
+  author_name: Марк Твен
+  author: *15
+- &33 !ruby/object:Book
+  title: Ночь
+  author_name: Эли Визель
+  author: *16
+readers:
+- &18 !ruby/object:Reader
+  name: Сергей
+  email: sergey.ivanov@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &39 !ruby/object:Reader
+  name: Ярослав
+  email: yaroslav.petrov@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &36 !ruby/object:Reader
+  name: Стас
+  email: stanislav_gorov@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &40 !ruby/object:Reader
+  name: Анатолий
+  email: anatoliy.sidorov@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &35 !ruby/object:Reader
+  name: Александр
+  email: alex.sors@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &32 !ruby/object:Reader
+  name: Евгений
+  email: evgen.horuk@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &38 !ruby/object:Reader
+  name: Павел
+  email: pavel_dasil.com
+  city: Киев
+  street: Новая
+  house: 10
+- &42 !ruby/object:Reader
+  name: Аркадий
+  email: paveaskogmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &43 !ruby/object:Reader
+  name: Михаил
+  email: pel_dsko@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &44 !ruby/object:Reader
+  name: Николай
+  email: pavel_daskgmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &45 !ruby/object:Reader
+  name: Валерий
+  email: pavel_dko@gmail.com
+  city: Киев
+  street: Новая
+  house: 10
+- &47 !ruby/object:Reader
+  name: Константин
+  email: pavel_dasko@gma.com
+  city: Киев
+  street: Новая
+  house: 10
+- &49 !ruby/object:Reader
+  name: Виктор
+  email: pavel_dasko@gil.com
+  city: Киев
+  street: Новая
+  house: 10
+orders:
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592386000 +03:00
+  book: *17
+  reader: *18
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592415000 +03:00
+  book: *19
+  reader: *18
+- !ruby/object:Order
+  book_title: Руслан и Людмила
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592418000 +03:00
+  book: *20
+  reader: *18
+- !ruby/object:Order
+  book_title: Война и мир
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592422000 +03:00
+  book: *21
+  reader: *18
+- !ruby/object:Order
+  book_title: Мартин Иден
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592425000 +03:00
+  book: *22
+  reader: *18
+- !ruby/object:Order
+  book_title: Смок Белью
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592427000 +03:00
+  book: *23
+  reader: *18
+- !ruby/object:Order
+  book_title: Мексиканец
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592430000 +03:00
+  book: *24
+  reader: *18
+- !ruby/object:Order
+  book_title: Джейн Эйр
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *25
+  reader: *18
+- !ruby/object:Order
+  book_title: Одиссея капитана Блада
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592440000 +03:00
+  book: *26
+  reader: *18
+- !ruby/object:Order
+  book_title: Мертвые души
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592442000 +03:00
+  book: *27
+  reader: *18
+- !ruby/object:Order
+  book_title: Таргитай
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *28
+  reader: *18
+- !ruby/object:Order
+  book_title: Отцы и дети
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592447000 +03:00
+  book: *29
+  reader: *18
+- !ruby/object:Order
+  book_title: Черный человек
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *30
+  reader: *18
+- !ruby/object:Order
+  book_title: История одной жизни
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592452000 +03:00
+  book: *31
+  reader: *18
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592455000 +03:00
+  book: *17
+  reader: *32
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592458000 +03:00
+  book: *19
+  reader: *32
+- !ruby/object:Order
+  book_title: Руслан и Людмила
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592460000 +03:00
+  book: *20
+  reader: *32
+- !ruby/object:Order
+  book_title: Война и мир
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592464000 +03:00
+  book: *21
+  reader: *32
+- !ruby/object:Order
+  book_title: Мартин Иден
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592467000 +03:00
+  book: *22
+  reader: *32
+- !ruby/object:Order
+  book_title: Ночь
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592469000 +03:00
+  book: *33
+  reader: *32
+- !ruby/object:Order
+  book_title: Мексиканец
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *24
+  reader: *32
+- !ruby/object:Order
+  book_title: Зов предков
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592475000 +03:00
+  book: *34
+  reader: *32
+- !ruby/object:Order
+  book_title: Одиссея капитана Блада
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592478000 +03:00
+  book: *26
+  reader: *32
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Евгений
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *17
+  reader: *32
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592483000 +03:00
+  book: *17
+  reader: *35
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Александр
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *19
+  reader: *35
+- !ruby/object:Order
+  book_title: Руслан и Людмила
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592487000 +03:00
+  book: *20
+  reader: *35
+- !ruby/object:Order
+  book_title: Мартин Иден
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592490000 +03:00
+  book: *22
+  reader: *35
+- !ruby/object:Order
+  book_title: Смок Белью
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592492000 +03:00
+  book: *23
+  reader: *35
+- !ruby/object:Order
+  book_title: Мексиканец
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592495000 +03:00
+  book: *24
+  reader: *35
+- !ruby/object:Order
+  book_title: Зов предков
+  reader_name: Александр
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592497000 +03:00
+  book: *34
+  reader: *35
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Стас
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592500000 +03:00
+  book: *17
+  reader: *36
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Стас
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592502000 +03:00
+  book: *19
+  reader: *36
+- !ruby/object:Order
+  book_title: Руслан и Людмила
+  reader_name: Стас
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *20
+  reader: *36
+- !ruby/object:Order
+  book_title: Том Сойер
+  reader_name: Стас
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592506000 +03:00
+  book: *37
+  reader: *36
+- !ruby/object:Order
+  book_title: Смок Белью
+  reader_name: Стас
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592532000 +03:00
+  book: *23
+  reader: *36
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Павел
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *17
+  reader: *38
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Павел
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592537000 +03:00
+  book: *19
+  reader: *38
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Ярослав
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *17
+  reader: *39
+- !ruby/object:Order
+  book_title: Белый клык
+  reader_name: Ярослав
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592541000 +03:00
+  book: *19
+  reader: *39
+- !ruby/object:Order
+  book_title: Руслан и Людмила
+  reader_name: Ярослав
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592543000 +03:00
+  book: *20
+  reader: *39
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Анатолий
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592546000 +03:00
+  book: *17
+  reader: *40
+- !ruby/object:Order
+  book_title: Над пропастью во ржи
+  reader_name: Анатолий
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592548000 +03:00
+  book: *41
+  reader: *40
+- !ruby/object:Order
+  book_title: Мартин Иден
+  reader_name: Аркадий
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592552000 +03:00
+  book: *22
+  reader: *42
+- !ruby/object:Order
+  book_title: Смок Белью
+  reader_name: Аркадий
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592554000 +03:00
+  book: *23
+  reader: *42
+- !ruby/object:Order
+  book_title: Мексиканец
+  reader_name: Михаил
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592557000 +03:00
+  book: *24
+  reader: *43
+- !ruby/object:Order
+  book_title: Зов предков
+  reader_name: Николай
+  date: !ruby/object:DateTime 2001-02-03 00:00:00.000000000 Z
+  book: *34
+  reader: *44
+- !ruby/object:Order
+  book_title: Одиссея капитана Блада
+  reader_name: Валерий
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592563000 +03:00
+  book: *26
+  reader: *45
+- !ruby/object:Order
+  book_title: Дневник Анны Франк
+  reader_name: Константин
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592566000 +03:00
+  book: *46
+  reader: *47
+- !ruby/object:Order
+  book_title: Гарри Поттер
+  reader_name: Виктор
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592570000 +03:00
+  book: *48
+  reader: *49
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592574000 +03:00
+  book: *17
+  reader: *18
+- !ruby/object:Order
+  book_title: Робинзон Крузо
+  reader_name: Сергей
+  date: !ruby/object:DateTime 2022-04-07 14:35:17.592576000 +03:00
+  book: *17
+  reader: *18

@@ -1,0 +1,50 @@
+ # Создание экземпляра класса Library
+    library = Library.new
+
+ # Загрузка данных из файла library.yml
+    library = Library.library_load
+
+ # Создание экземпляра класса Author
+    jo_oruel = Author.new("Джордж Оруэлл", library.authors)
+    ketrin_stoket = Author.new("Кетрин Стокетт", library.authors, "Родилась 9 ноября 1818 г.")
+
+      # Добавление экземпляра Author в Library.authors
+         jo_oruel.author_to_arrow_authors(library.authors)
+         ketrin_stoket.author_to_arrow_authors(library.authors)
+
+ # Создание экземпляра класса Book
+    na_dne = Book.new("На дне", "Джордж Оруэлл", library.authors)
+    prisluga = Book.new("Прислуга", "Кетрин Стокетт", library.authors)
+
+      # Добавление экземпляра Book в Library.books
+         na_dne.book_to_arrow_books(library.books)
+         prisluga.book_to_arrow_books(library.books)
+
+ # Создание экземпляра класса Reader
+    slava_mots = Reader.new("Вячеслав", "slava.mots@gmail.com", "Киев", "Новая", 10)
+    ivan_huk = Reader.new("Иван", "ivan.huk@gmail.com", "Киев", "Новая", 10)
+
+      # Добавление экземпляра класса Reader в Library.readers
+         slava_mots.reader_to_arrow_readers(library.readers)
+         ivan_huk.reader_to_arrow_readers(library.readers)
+
+ # Создание экземпляра класса Order
+    new_order61 = Order.new("На дне", "Вячеслав", library.books, library.readers, DateTime.now)
+    new_order62 = Order.new("Прислуга", "Иван", library.books, library.readers, DateTime.new(2001,2,3))
+
+      # Добавление экземпляра класса Order в Library.orders
+         new_order61.order_to_arrow_orders(library.orders)
+         new_order62.order_to_arrow_orders(library.orders)
+
+ # Сохранение экземпляра класса Library в файл library.yaml
+    library.library_save
+
+ # Выводим читателя взявшего наибольшее количество книг(аргумент - количество выводимых читателей)
+    library.top_reader(3)
+
+ # Выводим самую популярную книгу(аргумент - количество выводимых книг)
+    library.top_book(3)
+
+ # Количество читателей у самой популярной книги(аргумент - количество книг для которых нужно вывести уникальных читателей)
+    library.top_book_readers(3)
+
